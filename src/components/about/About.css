@@ -1,0 +1,33 @@
+.about{
+    margin-top: 81px;
+}
+
+.haqqimizda{
+    width: 100%;
+    height: 30vh;
+    background-color: #FF6400;
+}
+
+.haqqimizdaPadding{
+    text-align: center;
+    padding: 50px ;
+}
+
+.haqqimizdaPadding p{
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.haqqimizdaPadding a{
+    font-size: 20px;
+    padding-top: 50px;
+    color:#fff ;
+    transition: .3s;
+}
+
+.haqqimizdaPadding a:hover{
+    color: #030F27;
+}

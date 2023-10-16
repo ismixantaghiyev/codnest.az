@@ -1,0 +1,138 @@
+
+.navbar {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    /* position: sticky; */
+    z-index: 999999999 ;
+    background-color: #FF6400;
+}
+
+.navbarLogo {
+    width: 20%;
+}
+.navbarLogo a{
+    display: block;
+    width: 50%;
+}
+
+.navbarLogo img {
+    width: 100%;
+}
+
+.navbarMenu {
+    /* display: flex;
+    justify-content: space-between; */
+    width: 35%;
+}
+
+.navbarMenu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: gray;
+}
+
+.navbarMenu ul li a {
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    color: white;
+
+}
+
+.navbarMenu ul li a::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background-color: white;
+    transition: 0.5s;
+    margin: 5px 0;
+}
+
+.navbarMenu ul li a:hover::after {
+    width: 100%;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #ebebeb;
+    padding: 0 15px 0 50px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.35);
+    font-weight: 600;
+    outline-color: rgba(128, 128, 128, 0.349);
+}
+
+.search button {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    background-color: transparent;
+    border: 0;
+}
+
+.registerLogin {
+    border: 1px solid #096A2E;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.registerLogin a {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #096A2E;
+    padding: 0 10px;
+    line-height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.registerLogin a:hover {
+    background-color: rgb(155, 78, 207);
+    color: white;
+}
+
+.active::after {
+    content: "sasas";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 4px !important;
+    width: 100% !important;
+    background-color: #096A2E;
+    transition: 0.5s;
+    margin: 5px 0;
+}
+
+
+@media (max-width: 992px) {
+    .navbar a{
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 768px) {
+    .whatsapp{
+    display: none;
+    }
+    .navbarMenu ul{
+    width: 100%;
+    }
+}
+

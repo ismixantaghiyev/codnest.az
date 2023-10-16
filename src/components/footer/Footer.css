@@ -1,0 +1,126 @@
+.footer{
+    height: 50vh;
+    background-color: #030F27;
+}
+.footer h1{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.footer p a{
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+}
+.footer .header{
+    margin-top: 25px;
+    background-color: transparent;
+    border-top: 1px solid gray;
+}
+.footer .header a,.footer .header span{
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.footerAll{
+    display: flex;
+    margin: 0 auto;
+    /* background-color: red; */
+    width: 80%;
+    display: flex;
+    gap: 100px;
+}
+
+.footerLeft{
+    margin-top: 50px;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footerLeft h1{
+    color: #FF6400;
+    padding: 0px;
+    border-bottom: 3px solid #FF6400;
+    width: 14%;
+    padding-bottom: 5px;
+}
+
+.footerLeft p{
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.footerIcons{
+    display: flex;
+    gap: 15px;
+}
+
+
+.footerIcons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding:10px;
+    border: 1px solid #fff;
+    transition: .6s;
+}
+
+.footerIcons a svg{
+    font-size: 20px;
+    color: white;
+    transition: .6s;
+}
+
+.footerIcons a:hover{
+    background-color: #FF6400;
+    border: 1px solid #FF6400;
+}
+
+.footerIcons a:hover svg{
+    color: black;
+    
+}
+
+.footerRight{
+    margin-top: 50px;
+    width: 50%;
+    padding: 10px;
+}
+
+
+.xidmetler h1{
+    margin-bottom: 30px;
+    padding: 0px;
+    color: #FF6400;
+    border-bottom: 3px solid #FF6400;
+    padding-bottom: 5px;
+}
+
+.xidmetler ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.xidmetler ul li a{
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    transition: .6s;
+}
+
+
+.xidmetler ul li:hover a{
+    letter-spacing: 2px;
+    color: #FF6400;
+}
+
+.footerRight{
+    display: flex;
+    gap: 70px;
+}

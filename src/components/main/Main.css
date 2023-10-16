@@ -1,0 +1,37 @@
+#scrollUp{
+    display: block;
+    color: white;
+    /* border: 1px solid #46C756; */
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 8px;
+    position: fixed;
+    right: 45px;
+    bottom:70px;
+    border-radius: 50%;
+    z-index: 9999;
+    animation: shadow-pulse-big 1s  infinite linear alternate;
+}
+
+#scrollUp svg{
+    font-size: 40px;
+    color:#46C756 !important;
+
+}
+
+@keyframes shadow-pulse-big {
+    0% {
+    box-shadow: 0 0 0 0px white;
+    }
+    35% {
+    box-shadow: 0 0 0 7px #46c75557;
+    }
+    75% {
+    box-shadow: 0 0 0 14px #46c7557b;
+    }
+    100% {
+    box-shadow: 0 0 0 21px #46c75528;
+    }
+}
